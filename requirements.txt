@@ -1,0 +1,6 @@
+hydra-core
+scikit-learn
+numpy
+pandas
+matplotlib
+hydra_colorlog

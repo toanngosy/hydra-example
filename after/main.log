@@ -1,0 +1,17 @@
+[2022-12-08 12:44:46,691][__main__][INFO] - Run with configuration: {'files': {'file_name': 'Iris.csv'}, 'paths': {'data_dir': '${hydra:runtime.cwd}/../data'}, 'runparams': {'test_size': 0.3, 'random_state': 42}, 'knnparams': {'n_init': 10, 'n_clusters': 3, 'max_iter': 300, 'tol': 0.0001, 'algorithm': 'lloyd'}, 'credentials': {'user': 'admin', 'password': 'admin'}}
+[2022-12-08 12:44:46,692][__main__][INFO] - Load dataset: Iris.csv
+[2022-12-08 12:44:46,696][__main__][INFO] - Encoding categorical features
+[2022-12-08 12:44:46,697][__main__][INFO] - Split train/test set: 0.7/0.3
+[2022-12-08 12:44:46,897][__main__][INFO] - Accuracy on train set: 34.285714285714285
+[2022-12-08 12:44:46,898][__main__][INFO] - Accuracy on test set: 28.888888888888886
+[2022-12-08 12:44:46,906][__main__][INFO] - classification report on train set: 
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00        31
+         1.0       0.00      0.00      0.00        37
+         2.0       0.95      0.97      0.96        37
+
+    accuracy                           0.34       105
+   macro avg       0.32      0.32      0.32       105
+weighted avg       0.33      0.34      0.34       105
+

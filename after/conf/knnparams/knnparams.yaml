@@ -1,0 +1,5 @@
+n_init: 10
+n_clusters: 3
+max_iter: 300
+tol: 0.0001
+algorithm: lloyd
